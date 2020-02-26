@@ -19,13 +19,13 @@ img:hover {
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
-	font-family: "open sans",arial,sans-serif;
+	font-family: verdana;
 }
 h3 {
 	font-size:18px;
 }
 h2{
-	font-family: "Open Sans", arial, sans-serif;
+	font-family: verdana;
 }
 
 p {
@@ -50,14 +50,14 @@ ul {
 
 .name h1 {
 	font-size: 33px;
-	font-family: 'Open Sans';
+	font-family: verdana;
 	/*font-family: 'PT Sans', sans-serif;
-	font-family: 'Gill Sans';
+	/*font-family: 'Gill Sans';
 	*/
 }
 
 .name h3 {
-	font-family: 'PT Sans', sans-serif;
+	font-family: verdana;
 }
 
 .interact {
@@ -194,7 +194,7 @@ h5 {
 .thumbtext {
 	position: relative;
 	top:10px;
-	font-family: 'open sans';
+	font-family: verdana;
 }
 
 
