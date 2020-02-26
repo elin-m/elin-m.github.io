@@ -1,0 +1,342 @@
+body {
+	font-family:verdana;
+	color:gray;
+	line-height: 1.5;
+}
+
+body a {
+	color:gray;
+}
+
+body a:hover {
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+img:hover {
+	color:#cccccc;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+	font-family: "open sans",arial,sans-serif;
+}
+h3 {
+	font-size:18px;
+}
+h2{
+	font-family: "Open Sans", arial, sans-serif;
+}
+
+p {
+	font-size:15px;
+}
+ul {
+	font-size:14px;
+}
+
+.top {
+	display:inline-block;
+}
+
+.name a {
+	text-decoration:none;
+	color:#585858;
+}
+
+.name a:hover {
+	color:#585858;
+}
+
+.name h1 {
+	font-size: 33px;
+	font-family: 'Open Sans';
+	/*font-family: 'PT Sans', sans-serif;
+	font-family: 'Gill Sans';
+	*/
+}
+
+.name h3 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.interact {
+	margin-top:-20px;
+}
+
+.banner {
+	width:970px;
+	border-bottom:1px solid;
+	margin:-15px auto 0 auto;
+}
+
+
+/* nav */
+
+nav {
+	position:relative;
+	left:410px;
+	font-family: verdana;
+}
+
+nav li {
+	list-style: none;
+	float:left;
+}
+
+nav li.current a {
+	background-color: #dddddd;
+}
+
+nav li a {
+	display:block;
+	width:175px;
+	text-align: center;
+	text-decoration: none;
+	padding:5px;
+}
+
+
+nav li ul {
+	display: none;
+}
+
+nav li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; 
+	z-index: 100;
+}
+
+nav li:hover li {
+	float: none; 
+}
+
+nav li:hover li a {
+	background-color: #cccccc;
+	padding:9px 15px 9px 15px;
+	z-index: 100;
+	font-size:12px;
+}
+
+nav li li a:hover {
+	background-color: #dddddd;
+}
+
+/* end nav */
+
+
+
+.maincontainer {
+	width:970px;
+	margin: 0 auto;
+	padding-top:15px;
+	padding-bottom:50px;
+}
+
+
+.thumb {
+	display:inline-block;
+	height:200px;
+	width:300px;
+	margin-bottom:30px;
+	text-decoration: none;
+}
+
+.thumbright {
+	margin-left:28px;
+}
+
+.thumbpic {
+	width:300px;
+	/*border:1px solid #cccccc;*/
+	border-radius:2px;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+	/*
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+	/*filter: gray; /* IE6-9 */
+	/*-webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+
+
+.side {
+	display:inline-block;
+	vertical-align: top;
+	margin-bottom:70px;
+}
+
+.right {
+	margin-top:-20px;
+	width:360px;
+}
+
+.left {
+	width:600px;
+}
+
+.pic {
+	display:inline-block;
+	width:540px;
+	border:1px solid;
+}
+
+h5 {
+	position:relative;
+	top:-15px;
+}
+
+.fifty {
+	height:50px;
+}
+
+.thumbtext {
+	position: relative;
+	top:10px;
+	font-family: 'open sans';
+}
+
+
+.last {
+	display:inline-block;
+}
+
+.email {
+	float:right;
+}
+
+.email a {
+	text-decoration: none;
+}
+
+.arrow {
+	padding:0px 7px 0px 7px;
+	border-radius:40px;
+	border:2px solid;
+	border-color:gray;
+	background-color:white;
+	display:inline-block;
+	vertical-align: center;
+	text-align: center;
+	font-size:22px;
+	font-weight: 4px;
+	font-family: verdana;
+	position:relative;
+	top:10px;
+}
+
+.next {
+	float:right;
+}
+
+.arrow:hover {
+	background-color:#D0A9F5;
+	color:gray;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.arrows {
+	width:970px;
+	margin:auto;
+}
+
+.uparrow {
+	position:relative;
+	top:-20px;
+}
+
+.thumb:hover img{
+	
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    /*filter: none;
+	-webkit-filter: none;*/
+    box-shadow: 8px 8px 8px #888888;
+}
+
+.pic:hover {
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.maindown {
+	padding-top:45px;
+}
+
+
+/*
+.mainup {
+	margin-top:-19px;
+}
+	*/
+
+
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -51px;
+}
+
+.push {
+	height: 51px;
+}
+
+.footer {
+	width:970px;
+	height:30px;
+	border-top:solid 1px;
+	margin:0px auto 0px auto;
+	font-size:12px;
+	padding-top:20px;
+}
+
+.bottompic {
+	margin-top:80px;
+}
+
+.current {
+	color:#A23BEC;
+	/*8D38C9*/
+}
+
+.abouttext {
+	line-height: 30px;	
+}
+
+.geisel {
+	width:350px;
+	float:right;
+}
+
+.backtop {
+	float:right;
+	font-size:12px;
+	position: relative;
+	top:20px;
+}
+
+.backtop a {
+	text-decoration: none;
+}
+
+.fixbacktop {
+	position: relative;
+	left:31px;
+}
+
+.extraspace {
+	margin-bottom:70px;
+}
+
+.contactleft{
+	width:550px;
+}
+.contactright{
+	align:right;
+	margin: 60px 0px 0px 85px;
+}
