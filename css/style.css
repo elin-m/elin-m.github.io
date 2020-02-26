@@ -1,5 +1,5 @@
 body {
-	font-family:verdana;
+	font-family:roboto,sans-serif;
 	color:gray;
 	line-height: 1.5;
 }
@@ -19,13 +19,13 @@ img:hover {
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
-	font-family: verdana;
+	font-family: roboto,sans-serif;
 }
 h3 {
 	font-size:18px;
 }
 h2{
-	font-family: verdana;
+	font-family: roboto,sans-serif;
 }
 
 p {
@@ -50,14 +50,14 @@ ul {
 
 .name h1 {
 	font-size: 33px;
-	font-family: verdana;
+	font-family: roboto,sans-serif;
 	/*font-family: 'PT Sans', sans-serif;
 	/*font-family: 'Gill Sans';
 	*/
 }
 
 .name h3 {
-	font-family: verdana;
+	font-family: roboto,sans-serif;
 }
 
 .interact {
@@ -76,7 +76,7 @@ ul {
 nav {
 	position:relative;
 	left:410px;
-	font-family: verdana;
+	font-family: roboto,sans-serif;
 }
 
 nav li {
@@ -194,7 +194,7 @@ h5 {
 .thumbtext {
 	position: relative;
 	top:10px;
-	font-family: verdana;
+	font-family: roboto,sans-serif;
 }
 
 
